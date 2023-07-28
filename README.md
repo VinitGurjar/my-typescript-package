@@ -1,4 +1,8 @@
 # my-typescript-package
+
+![pic](https://github.com/VinitGurjar/my-typescript-package/assets/97173586/ac027ea5-718f-458b-9f83-6d6afef78b92)
+
+
 ## Tools used :
 ### [ts-node package](https://github.com/TypeStrong/ts-node) : 
 - ts-node is a TypeScript execution engine and REPL for Node.js.
