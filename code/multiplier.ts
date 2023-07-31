@@ -1,4 +1,4 @@
-const multiplier = (a, b, printText) => {
+const multiplier = (a: number, b: number, printText: string) => {
     console.log(printText, a * b);
 }
 
