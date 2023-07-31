@@ -21,8 +21,9 @@
  */
 
 type Operation = 'add' | 'multiply' | 'divide';
+type result = number | string;
 
-const calculator = (a: number, b: number, op: Operation) => {
+const calculator = (a: number, b: number, op: Operation): result => {
     if (op === 'add') {
         return a + b;
     } else if (op === 'multiply') {
