@@ -21,17 +21,19 @@
  */
 
 type Operation = 'add' | 'multiply' | 'divide';
-type result = number | string;
+type result = number;
 
 const calculator = (a: number, b: number, op: Operation): result => {
-    if (op === 'add') {
-        return a + b;
-    } else if (op === 'multiply') {
-        return a * b;
-    } else if (op === 'divide') {
-        if (b === 0) return 'can\'t divide by 0!';
-        return a / b;
+    switch (op) {
+        case 'multiply':
+            return a * b;
+        case 'divide':
+            if (b === 0) throw new Error('Can\'t divide by zero');
+            return a / b;
+        case 'add':
+            return a + b;
+        default:
+            throw new Error('Operatoin is not multiply, add or divide');
     }
 }
 
-calculator(5, 5, 'add');
