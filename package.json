@@ -5,6 +5,7 @@
   },
   "scripts": {
     "ts-node": "ts-node",
-    "multiply": "ts-node multiplier.ts"
+    "multiply": "ts-node multiplier.ts",
+    "calculator": "ts-node calculator.ts"
   }
 }
