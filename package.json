@@ -4,6 +4,7 @@
     "typescript": "^5.1.6"
   },
   "scripts": {
-    "ts-node": "ts-node"
+    "ts-node": "ts-node",
+    "multiply": "ts-node multiplier.ts"
   }
 }
