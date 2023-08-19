@@ -22,3 +22,15 @@
  ```
  npm run ts-node file.ts -- -s --someoption
  ```
+
+### Some Tips
+
+- After declaring an npm script for an .ts file  
+  
+```json
+ "scripts": {
+    "ts-node": "ts-node",
+    "multiply": "ts-node code/multiply.ts"
+ }
+ ```
+ > Run this command  `npm run multiply`
