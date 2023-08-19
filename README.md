@@ -33,4 +33,7 @@
     "multiply": "ts-node code/multiply.ts"
  }
  ```
- > Run this command  `npm run multiply`
+ > Run this command
+```
+ npm run multiply
+```
