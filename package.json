@@ -7,6 +7,6 @@
     "ts-node": "ts-node",
     "multiply": "ts-node code/multiply.ts",
     "calculator": "ts-node code/calculator.ts",
-    "calculateExercises": "ts-node exerciseCalculator.ts"
+    "calculateExercises": "ts-node code/exerciseCalculator.ts"
   }
 }
