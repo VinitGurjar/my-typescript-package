@@ -1,4 +1,5 @@
 # my-typescript-package
+### In this repo I tried some development level typescript features.
 
 ![pic](https://github.com/VinitGurjar/my-typescript-package/assets/97173586/ac027ea5-718f-458b-9f83-6d6afef78b92)
 
